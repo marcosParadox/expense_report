@@ -75,4 +75,4 @@ ws.cell(row=formula_row, column=5).value = '=Sum(E8:E' + str(formula_row-1) + ')
 ws.cell(row=formula_row, column=4).value = '=Sum(D8:D' + str(formula_row-1) + ')'
 ws.cell(row=formula_row, column=3).value = '=Sum(C8:C' + str(formula_row-1) + ')'
 #Save the new workbook
-wb.save('names.xlsx')
+wb.save('expenseReport.xlsx')
